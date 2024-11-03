@@ -53,6 +53,42 @@ ul {
   text-align: center;
 }
 
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-bar {
+  background-color: #e0e0e0; /* Light grey background for the bar */
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px; /* Height of the skill bar */
+  width: 100%; /* Full width */
+}
+
+.skill-level {
+  height: 100%;
+}
+
+.html-css {
+  width: 85%; 
+  background-color: #4caf50; 
+}
+
+.js {
+  width: 70%; 
+  background-color: #f0db4f; 
+}
+
+.python {
+  width: 40%; 
+  background-color: #306998;
+}
+
+.frameworks {
+  width: 60%; 
+  background-color: #61dbfb; 
+}
+
 #skills-list {
   list-style: none;
   padding: 0; 
@@ -124,5 +160,3 @@ ul {
 .menu-toggle input:checked ~ .menu-btn span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-
-
